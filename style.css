@@ -64,7 +64,7 @@ nav ul li a {
 
 @media (max-width: 768px) {
     .menu-item {
-        position: fixed;
+        position: absolute;
         right: -200px;
         top: 0;
         width: 200px;
@@ -73,11 +73,11 @@ nav ul li a {
         transition: 0.5s;
     }
 
-   #show-menu, #hide-menu {
+    #show-menu, #hide-menu {
         display: block;
         font-size: 30px;
     }
-        
+
     .menu-item ul li {
         display: block;
         text-align-last: left;
