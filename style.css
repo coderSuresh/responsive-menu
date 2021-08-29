@@ -54,7 +54,7 @@ nav ul li a {
     width: 150px;
 }
 
-.fa, .fas {
+#show-menu, #hide-menu {
     display: none;
 }
 
