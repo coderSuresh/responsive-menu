@@ -73,11 +73,11 @@ nav ul li a {
         transition: 0.5s;
     }
 
-    .fa {
-        display: block;
-        font-size: 30px;
+   #show-menu, #hide-menu {
+        display: none;
+       font-size: 30px;
     }
-
+        
     .menu-item ul li {
         display: block;
         text-align-last: left;
